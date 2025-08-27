@@ -3,9 +3,9 @@
 
 create database SourseSystemes
 go
---select count(*) from [dbo].[RawAirports] --322
---select * from [dbo].[RawAirlines] --14
---select count(*) from [dbo].[RawFlights]  --5819079
+select count(*) from [dbo].[RawAirports] --322
+select * from [dbo].[RawAirlines] --14
+select count(*) from [dbo].[RawFlights]  --5819079
 
 create table RawAirlines(
 	IATA_CODE varchar(250) NULL,
